@@ -1,0 +1,19 @@
+*{  /*para resetar as formatações padrão do box-model */
+    margin: 0;
+    padding: 0; 
+}
+body{
+    height: 100vh; /*garantindo que pegue 100% da tela com o meta viewport */
+    box-sizing: border-box; /* garante que os elementos filhos não saiam ou ultrapassem*/
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.titulo-destaque{
+    color: #22D4FD;
+}
+.apresentacao{
+    display: flex; /*por padrao, o flexbox posiciona em row */ 
+    align-items: center;
+    justify-content: space-between;
+}
