@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{  /*para resetar as formatações padrão do box-model */
     margin: 0;
     padding: 0; 
@@ -12,8 +15,40 @@ body{
 .titulo-destaque{
     color: #22D4FD;
 }
-.apresentacao{
-    display: flex; /*por padrao, o flexbox posiciona em row */ 
-    align-items: center;
-    justify-content: space-between;
+
+.apresentacao {
+    margin: 10% 15%; /* define a margem para os elementos que estão nele */ 
+    display: flex; 
+    align-items: center; /* Alinha verticalmente no centro */
+    justify-content: space-between; /* Alinha horizontalmente no centro */
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /*a propriedade gap do flexbox dispõe o valor de espaçamento entre os filhos  */
+}
+.apresentacao__conteudo__titulo{
+    font-family: "Krona One", sans-serif; /* fonte importada*/
+    font-size: 36px;
+    font-style: normal;
+}
+.apresentacao__conteudo__paragrafo{
+    font-size: 24px;
+    font-family: "Montserrat";
+}
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between; /* Alinha horizontalmente no centro */
+}
+.apresentacao__links__link{
+    background-color: #22D4FD;
+    width: 250px;
+    border-radius: 16px;
+    text-align: center;
+
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Montserrat";
 }
