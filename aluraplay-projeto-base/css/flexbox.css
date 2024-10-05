@@ -1,1 +1,11 @@
+.cabecalho__container{
+    display: flex; /*aplicando flexbox*/
+    justify-content: space-between; /*fazendo os elementos filhos terem espaço entre eles */
+    align-items: center; /*para que eles fiquem no centro do container pai */
+    position: fixed;  /*para que o menu fique fixo conforme scrolla*/
+    top: 0% ;
+}
 
+@media (min-width: 834px){ /* todo codigo dentro das chaves serão aplicados quando a tela tiver 834px
+    
+}
